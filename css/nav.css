@@ -1,3 +1,4 @@
+/* Navigation Bar */
 .navbar {
     background: #131313;
     height: 80px;
@@ -21,6 +22,7 @@
     padding: 0 50;
 }
 
+/* Navigation Bar Logo */
 .navbar__logo {
     background-size: 100%;
     display: flex;
@@ -32,6 +34,7 @@
     width: auto;
 }
 
+/* Navigation Bar Menu */
 .navbar__menu {
     display: flex;
     align-items: center;
@@ -53,7 +56,8 @@
     height: 100%;
 }
 
-.navbar__btn {
+/* Log In Button */
+.navbar__button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +90,10 @@ color: #f77062;
 transition: all 0.3s ease;
 }
 
+/* Mobile Responsive */
 @media screen and (max-width: 960px) {
+
+    /* Navigation Bar */
     .navbar__container {
         display: flex;
         justify-content: space-between;
@@ -97,6 +104,7 @@ transition: all 0.3s ease;
         padding: 0;
     }
 
+    /* Navigation Bar Mobile Menu */
     .navbar__menu {
         display: grid;
         grid-template-columns: auto;
@@ -121,16 +129,20 @@ transition: all 0.3s ease;
         font-size: 1.6rem;
     }
 
+    /* Navigation Mobile Logo */
     .navbar__logo {
         padding-left: 25px;
     }
 
+    /* Navigation Bar Mobile Links*/
     .navbar__toggle .bar {
         width: 25px;
         height: 3px;
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
         background: #fff;
+        cursor: pointer;
+        display:block;
     }
 
     .navbar__item {
@@ -144,6 +156,7 @@ transition: all 0.3s ease;
         display: table;
     }
 
+    /* Navigation Bar Mobile Menu*/
     #mobile-menu {
         position: absolute;
         top: 20%;
@@ -151,7 +164,8 @@ transition: all 0.3s ease;
         transform: translate(5%, 20%);
     }
 
-    .navbar__btn {
+    /* Navigation Bar Mobile Button*/
+    .navbar__button {
         padding-bottom: 2rem;
         padding-top: 1rem;
     }
@@ -165,11 +179,7 @@ transition: all 0.3s ease;
         margin: 0;
     }
 
-    .navbar__toggle .bar {
-        display:block;
-        cursor: pointer;
-    }
-
+    /* Navigation Bar Button Animation*/
     #mobile-menu.is-active .bar:nth-child(2) {
         opacity: 0;
     }

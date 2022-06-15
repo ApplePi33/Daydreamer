@@ -1,3 +1,4 @@
+/* Body */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,6 +6,7 @@
   font-family: "Kumbh Sans", sans-serif;
 }
 
+/* Main Body */
 .main {
   background-color: #141414;
 }
@@ -40,6 +42,7 @@
   color: #fff;
 }
 
+/* Submit Button */
 .submit__button {
   font-size: 1rem;
   background: #ff0844;
@@ -66,6 +69,7 @@
   color: #fff;
 }
 
+/* Submit Image */
 .submit__image--container {
   text-align: center;
 }
@@ -77,6 +81,7 @@
 
 /* Mobile Responsive */
 @media screen and (max-width: 768px) {
+  /* Main Body */
   .main__container {
     display: grid;
     grid-template-columns: auto;
@@ -105,6 +110,7 @@
 }
 
 @media screen and (max-width: 480px) {
+  /* Main Body */
   .main__content h1 {
     font-size: 2rem;
     margin-top: 3rem;
@@ -115,6 +121,7 @@
     font-size: 1.5rem;
   }
 
+  /* Submit Button */
   .submit__button {
     padding: 12px 36px;
     margin: 2.5rem 0;
