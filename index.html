@@ -5,12 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daydreamer</title>
+    <link rel="shortcut icon" href="/images/Logo.png" />
+    <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/nav.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <!-- navigation bar -->
     <nav class="navbar">
       <div class="navbar__container">
-        <a href="index.html"><img src="images/Logo.png" class="navbar__logo"></a>
+        <a href="index.html"
+          ><img src="images/Logo.png" class="navbar__logo"
+        /></a>
         <div class="navbar__toggle" id="mobile-menu">
           <span class="bar"></span>
           <span class="bar"></span>
@@ -21,13 +32,17 @@
             <a href="categories/twitch.html" class="navbar__links">Twitch </a>
           </li>
           <li class="navbar__item">
-            <a href="categories/youtube.html" class="navbar__links"> YouTube </a>
+            <a href="categories/youtube.html" class="navbar__links">
+              YouTube
+            </a>
           </li>
           <li class="navbar__item">
             <a href="categories/music.html" class="navbar__links"> Music </a>
           </li>
           <li class="navbar__item">
-            <a href="categories/submissions.html" class="navbar__links"> Submissions </a>
+            <a href="categories/submissions.html" class="navbar__links">
+              Submissions
+            </a>
           </li>
           <li class="navbar__btn">
             <a href="/" class="button"> Log In </a>
@@ -36,6 +51,25 @@
       </div>
     </nav>
     <script src="js/nav.js"></script>
-    <h1>potato</h1>
+
+    <!--main website body-->
+    <div class="main">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>DAYDREAMER MUSIC</h1>
+          <p>The best music for your ears</p>
+          <button class="main__button">
+            <a href="categories/submissions.html">Submit Your Music</a>
+          </button>
+        </div>
+        <div class="submit__image--container">
+          <img class="temp"
+            src="images/DaydreamerOCKomaki.jpg"
+            alt="Submit Image"
+            id="submit__image"
+          />
+        </div>
+      </div>
+    </div>
   </body>
 </html>
