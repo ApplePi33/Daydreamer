@@ -42,10 +42,10 @@
 
 .submit__button {
   font-size: 1rem;
-  background: #f77062;
+  background: #ff0844;
   padding: 14px 32px;
   border: none;
-  border-radius: none;
+  border-radius: 4px;
   color: #fff;
   margin-top: 2rem;
   cursor: pointer;
@@ -55,7 +55,7 @@
 }
 
 .submit__button:hover {
-  background: #da3d2c;
+  background: #be0735;
   transition: all 0.3 ease;
 }
 
