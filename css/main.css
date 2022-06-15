@@ -39,7 +39,37 @@
     font-weight: 700;
 }
 
-.temp {
-    height:300px;
-    width: auto;
+.submit__button {
+    font-size: 1rem;
+    background: #f77062;;
+    padding: 14px 32px;
+    border: none;
+    border-radius: none;
+    color: #fff;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+}
+
+.submit__button:hover {
+    background: #da3d2c;
+    transition: all 0.3 ease;
+}
+
+.submit__button a {
+    position: relative;
+    z-index: 2;
+    text-decoration: none;
+    color: #fff;
+}
+
+.submit__image--container {
+    text-align: center;
+}
+
+#submit__image {
+    height: 100%;
+    width: 100%;
 }
