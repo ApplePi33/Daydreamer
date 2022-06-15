@@ -84,7 +84,8 @@
     justify-self: center;
     width: 100%;
     margin: 0 auto;
-    height: 100vh;
+    height: auto;
+    padding-bottom: 15px;
   }
 
   .main__content {
