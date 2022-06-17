@@ -10,7 +10,7 @@ document.getElementById("headInfo").innerHTML =
 /* Loads Navigation Bar */
 document.getElementById("navBar").innerHTML =
   "<nav class='navbar'>" +
-  "<div class='navbar__container'><a href='/Daydreamer/index.html'><img src='/Daydreamer/Logo.png' class='navbar__logo'/></a>" +
+  "<div class='navbar__container'><a href='/Daydreamer/index.html'><img src='/Daydreamer/images/Logo.png' class='navbar__logo'/></a>" +
   "<div class='navbar__toggle' id='mobile-menu'>" +
   "<span class='bar'></span>" +
   "<span class='bar'></span>" +
@@ -18,10 +18,10 @@ document.getElementById("navBar").innerHTML =
   "</div>" +
   "<ul class='navbar__menu'>" +
   "<li class='navbar__item'><a href='/Daydreamer/categories/music.html' class='navbar__links'> Music </a></li>" +
-  "<li class='navbar__item'><a href='/Daydreamer/twitch.html' class='navbar__links'>Twitch </a></li>" +
-  "<li class='navbar__item'><a href='/Daydreamer/youtube.html' class='navbar__links'>YouTube</a></li>" +
-  "<li class='navbar__item'><a href='/Daydreamer/submissions.html' class='navbar__links'>Submissions</a></li>" +
-  "<li class='navbar__button'><a href='/Daydreamer/Login/login.html' class='button'> Log In </a></li>" +
+  "<li class='navbar__item'><a href='/Daydreamer/categories/twitch.html' class='navbar__links'>Twitch </a></li>" +
+  "<li class='navbar__item'><a href='/Daydreamer/categories/youtube.html' class='navbar__links'>YouTube</a></li>" +
+  "<li class='navbar__item'><a href='/Daydreamer/categories/submissions.html' class='navbar__links'>Submissions</a></li>" +
+  "<li class='navbar__button'><a href='/Daydreamer/categories/Login/login.html' class='button'> Log In </a></li>" +
   "</ul>" +
   "</div>" +
   "</nav>";
