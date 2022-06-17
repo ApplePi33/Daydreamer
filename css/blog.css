@@ -1,0 +1,38 @@
+/* Main Body */
+.blog__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: auto;
+    background-color: #141414;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+  }
+
+  .blog__post {
+    background-color: #FFF;
+    width: 80%;
+    margin: 20px;
+    justify-self: center;
+
+  }
+
+  .blog__image {
+    float: left;
+    padding: 10px;
+
+  }
+
+  .blog__text {
+    text-align: left;
+    padding: 10px;
+  }
+
+  .post__image {
+    width: 250px;
+    height: 250px;
+  }
