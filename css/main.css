@@ -52,7 +52,7 @@
 }
 
 .navbar__item {
-  height: 80px;
+  height: 40px;
 }
 
 .navbar__links {
@@ -140,6 +140,8 @@
   /* Navigation Mobile Logo */
   .navbar__logo {
     padding-left: 25px;
+    max-height: 70%;
+    padding-top: 3px;
   }
 
   /* Navigation Bar Mobile Links*/
