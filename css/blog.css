@@ -17,10 +17,12 @@
     margin: 20px;
     justify-self: center;
     position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
 
   }
 
-  .post__image {
+  .album__cover {
     width: 250px;
     height: auto;
   }
@@ -28,11 +30,16 @@
   .blog__image {
     float: left;
     height: 250px;
+    position: relative;
 
   }
 
-  .blog__text {
-    text-align: left;
+  .blog__text h1 {
+    padding-left: 3px;
+  }
+
+  .blog__text p {
+    padding-left: 5px;
   }
 
   .blog__text h5 {
@@ -61,15 +68,12 @@
     height: 600px;
   }
 
-  .blog__text h1{
-  }
-
   .blog__image {
     width: 100%;
     height: auto;
   }
 
-  .post__image {
+  .album__cover {
     width: 100%;
     height: auto;
   }
