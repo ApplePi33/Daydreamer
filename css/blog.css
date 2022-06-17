@@ -2,8 +2,6 @@
 .blog__container {
     display: grid;
     grid-template-columns: 1fr;
-    align-items: center;
-    justify-self: center;
     margin: 0 auto;
     height: auto;
     background-color: #141414;
@@ -21,6 +19,11 @@
 
   }
 
+  .post__image {
+    width: 250px;
+    height: 250px;
+  }
+
   .blog__image {
     float: left;
     padding: 10px;
@@ -30,9 +33,10 @@
   .blog__text {
     text-align: left;
     padding: 10px;
+    height: 260px;
   }
 
-  .post__image {
-    width: 250px;
-    height: 250px;
+  .blog__text h5 {
+    text-align: right;
+    padding: 10px;
   }
