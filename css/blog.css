@@ -34,8 +34,24 @@
 
   }
 
+  .authorTitle {
+    display: grid;
+    grid-template-columns: 32px auto;
+    font-size: 1.5rem;
+    padding-left: 5px;
+    padding-top: 3px;
+  }
+
+  .blog__text i {
+    padding-top: 3px;
+  }
+
   .blog__text h1 {
-    padding-left: 3px;
+    font-size: 1.7rem;
+  }
+
+  .blog__text h2 {
+    font-size: 1.3rem;
   }
 
   .blog__text p {
