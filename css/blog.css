@@ -10,6 +10,7 @@
   max-width: 1300px;
   padding: 0 50px;
 }
+
 /* Posts */
 .blog__post {
   background-color: #fff;
@@ -21,6 +22,7 @@
   grid-template-columns: auto auto;
 }
 
+/* Link to full post - Includes both author and title */
 .post__button {
   text-decoration: none;
   color: black;
@@ -31,13 +33,11 @@
   text-decoration: none;
   text-decoration: underline;
 }
-
-.redirect {
+.bloglink {
   width: max-content;
 }
 
 /* Post Images */
-
 .album__cover {
   width: 250px;
   height: auto;
@@ -50,17 +50,12 @@
 }
 
 /* Post Text */
-
 .authorTitle {
   display: grid;
   grid-template-columns: 32px auto;
   font-size: 1.5rem;
   padding-left: 5px;
   padding-top: 3px;
-  width: max-content;
-}
-
-.names {
   width: max-content;
 }
 
