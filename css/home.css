@@ -116,11 +116,11 @@
 
   /* Submit Button */
   .submit__button {
-    padding: 15px 40px;
     margin: 2.5rem 0;
   }
 
   .submit__button a {
+    padding: 30px 70px;
     font-size: 2rem;
   }
 }
