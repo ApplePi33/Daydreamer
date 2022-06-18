@@ -86,3 +86,42 @@
     height: auto;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  
+  .main__container {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-self: center;
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    padding-bottom: 15px;
+  }
+
+  .blog__text {
+    height: 1000px;
+  }
+
+  .blog__text h1 {
+    font-size: 1.5rem;
+  }
+
+  .blog__post {
+    display:block;
+    width: 80%;
+    height: 800px;
+  }
+
+  .blog__image {
+    width: 100%;
+    height: auto;
+  }
+
+  .album__cover {
+    width: 100%;
+    height: auto;
+  }
+}
+}
