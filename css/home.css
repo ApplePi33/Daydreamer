@@ -46,11 +46,8 @@
   height: 100%;
   width: 100%;
   font-size: 1rem;
-  justify-content: center;
-  align-items: center;
   text-decoration: none;
   padding: 14px 32px;
-  border: none;
   outline: none;
   color: #fff;
 }
@@ -71,13 +68,12 @@
 }
 
 /* Mobile Responsive */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 913px) {
   /* Main Body */
   .main__container {
     display: grid;
     grid-template-columns: auto;
-    align-items: center;
-    justify-self: center;
+    justify-content: center;
     width: 100%;
     margin: 0 auto;
     height: auto;
@@ -98,14 +94,38 @@
     margin-top: 1rem;
     font-size: 1.5rem;
   }
-
-  /*.submit__button {
-    position: relative;
-    align-items: center;
-    justify-self: center;
-  }*/
 }
 
+/* Mobile Responsive - Tablets*/
+@media screen and (min-width: 769px) and (max-width: 913px) {
+
+  .main__content {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .main__content h1 {
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+
+  .main__content p {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+  }
+
+  /* Submit Button */
+  .submit__button {
+    padding: 15px 40px;
+    margin: 2.5rem 0;
+  }
+
+  .submit__button a {
+    font-size: 2rem;
+  }
+}
+
+/* Small Screen */
 @media screen and (max-width: 480px) {
   /* Main Body */
   .main__content h1 {
@@ -120,7 +140,7 @@
 
   /* Submit Button */
   .submit__button {
-    padding: 12px 36px;
+    padding: 6px 18px;
     margin: 2.5rem 0;
   }
 }
