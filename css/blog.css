@@ -25,6 +25,13 @@
   .post__button {
     text-decoration: none;
     color: black;
+    width: auto;
+  }
+
+  .post__button:hover {
+    text-decoration: none;
+    color: #303030;
+    text-decoration: underline;
   }
 
   /* Post Images */
@@ -53,6 +60,10 @@
 
   .blog__text i {
     padding-top: 3px;
+  }
+
+  .blog__text:hover i {
+    text-decoration: none;
   }
 
   .blog__text h1 {
