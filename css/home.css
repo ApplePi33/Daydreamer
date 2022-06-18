@@ -33,7 +33,6 @@
 /* Submit Button */
 .submit__button {
   background: #ff0844;
-  display: flex;
   justify-content: center;
   align-items: center;
   transition: all 0.3s ease;
@@ -43,10 +42,10 @@
 }
 
 .submit__button a {
+  display: block;
   height: 100%;
   width: 100%;
   font-size: 1rem;
-  display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
@@ -99,6 +98,12 @@
     margin-top: 1rem;
     font-size: 1.5rem;
   }
+
+  /*.submit__button {
+    position: relative;
+    align-items: center;
+    justify-self: center;
+  }*/
 }
 
 @media screen and (max-width: 480px) {
