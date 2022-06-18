@@ -86,17 +86,3 @@
     height: auto;
   }
 }
-
-/* Mobile Responsive - Tablet */
-@media screen and (min-width: 768) and (max-width: 1024px) {
-
-  .blog__text {
-    height: 800px;
-  }
-
-  .blog__post {
-    display:block;
-    width: 80%;
-    height: 800px;
-  }
-}
