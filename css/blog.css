@@ -29,8 +29,7 @@
   }
 
   .post__button:hover {
-    text-decoration: none;
-    color: #303030;
+    text-decoration:none;
     text-decoration: underline;
   }
 
@@ -58,8 +57,9 @@
     padding-top: 3px;
   }
 
-  .blog__text i {
+  .authorTitle i {
     padding-top: 3px;
+    text-decoration: none;
   }
 
   .blog__text h1 {
