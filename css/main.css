@@ -76,6 +76,7 @@
   align-items: center;
   padding: 0 1rem;
   width: 100%;
+  transition: all 0.3s ease;
 }
 
 .button {
@@ -95,7 +96,7 @@
 
 .button:hover {
   background: #eb5c4c;
-  transition: all 0.3 ease;
+  transition: all 0.3s ease;
 }
 
 .navbar__links:hover {

@@ -32,29 +32,34 @@
 
 /* Submit Button */
 .submit__button {
-  font-size: 1rem;
   background: #ff0844;
-  padding: 14px 32px;
-  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
   border-radius: 4px;
-  color: #fff;
+  border: none;
   margin-top: 2rem;
-  cursor: pointer;
-  position: relative;
-  transition: all 0.35s;
+  padding: 4px 12px;
+}
+
+.submit__button a {
+  height: 100%;
+  width: 100%;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: none;
   outline: none;
+  color: #fff;
 }
 
 .submit__button:hover {
   background: #be0735;
   transition: all 0.3 ease;
-}
-
-.submit__button a {
-  position: relative;
-  z-index: 2;
-  text-decoration: none;
-  color: #fff;
 }
 
 /* Submit Image */
