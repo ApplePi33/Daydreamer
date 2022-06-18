@@ -97,16 +97,10 @@
 }
 
 /* Mobile Responsive - Tablets*/
-@media screen and (min-width: 769px) and (max-width: 913px) {
-
-  .main__content {
-    text-align: center;
-    margin-bottom: 4rem;
-  }
+@media screen and (min-width: 821px) and (max-width: 913px) {
 
   .main__content h1 {
     font-size: 4rem;
-    margin-top: 2rem;
   }
 
   .main__content p {
@@ -115,9 +109,6 @@
   }
 
   /* Submit Button */
-  .submit__button {
-    margin: 2.5rem 0;
-  }
 
   .submit__button a {
     padding: 30px 70px;
@@ -125,6 +116,13 @@
   }
 }
 
+@media screen and (min-width: 481) and (max-width: 820px) {
+
+  .submit__button a {
+    padding: 15px 40px;
+    font-size: 1.5rem;
+  }
+}
 /* Small Screen */
 @media screen and (max-width: 480px) {
   /* Main Body */
@@ -134,13 +132,11 @@
   }
 
   .main__content p {
-    margin-top: 2rem;
     font-size: 1.5rem;
   }
 
   /* Submit Button */
   .submit__button {
     padding: 6px 18px;
-    margin: 2.5rem 0;
   }
 }
