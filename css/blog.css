@@ -32,6 +32,10 @@
   text-decoration: underline;
 }
 
+.redirect {
+  width: max-content;
+}
+
 /* Post Images */
 
 .album__cover {
