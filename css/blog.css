@@ -50,7 +50,7 @@
   }
 
 /* Mobile Responsive */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .main__container {
     display: grid;
     grid-template-columns: auto;
@@ -87,7 +87,8 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+/* Mobile Responsive - Tablet */
+@media screen and (min-width: 768) and (max-width: 1024px) {
 
   .blog__text {
     height: 800px;
