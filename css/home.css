@@ -95,7 +95,6 @@
 }
 
 .blog__image {
-  float: left;
   position: relative;
   height: 300px;
 }
@@ -222,10 +221,6 @@
   .blog__post {
     width: 100%;
     height: 580px;
-  }
-
-  .blog__post a {
-    height: max-content;
   }
 }
 
