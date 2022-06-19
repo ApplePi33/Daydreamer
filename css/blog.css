@@ -90,11 +90,6 @@
     padding-bottom: 15px;
   }
 
-  .main__content {
-    text-align: center;
-    margin-bottom: 4rem;
-  }
-
   .blog__post {
     display: block;
     width: 100%;
@@ -126,11 +121,11 @@
 
 /* Adjustment for wider screens */
 @media screen and (max-width: 767px) and (max-height: 512px) {
-
   .blog__post {
     height: 750px;
     width: 80%;
   }
+  
 }
 
 /* Adjustment for smaller screens */
