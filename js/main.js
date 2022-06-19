@@ -1,6 +1,6 @@
 /* Loads Head Info */
 document.getElementById("headInfo").innerHTML =
-"<title>Daydreamer</title>" +
+"<title>Daydreamer Music</title>" +
 "<link rel='shortcut icon' href='/Daydreamer/images/Logo.png' />" +
 "<link rel='stylesheet' href='/Daydreamer/css/main.css' />" +
 "<link rel='preconnect' href='https://fonts.googleapis.com' />" +
@@ -25,14 +25,41 @@ document.getElementById("navBar").innerHTML =
   "</ul>" +
   "</div>" +
   "</nav>";
-/*document.getElementById("myFooter").innerHTML =
-  "<p id='copyright'>Copyright &copy; " +
-  new Date().getFullYear() +
-  " You. All" +
-  " rights reserved.</p>" +
-  "<p id='credits'>Layout by You</p>" +
-  "<p id='contact'><a href='mailto:you@you.com'>Contact Us</a> / " +
-  "<a href='mailto:you@you.com'>Report a problem.</a></p>";*/
+
+  /* Loads Footer */
+document.getElementById("footer").innerHTML =
+"<div class='footer__container'>" +
+  "<div class='footer__cards'>" +
+    "<div class='footer__cards--wrapper'>" +
+      "<div class='footer__cards--items'>" +
+        "<h2>About Us</h2>" +
+        "<p>Our goal is to help small artists share their music with the world, by giving them a platform and connecting them with curators.</p>" +
+        "</div>" +
+        "<div class='footer__cards--items'>" +
+        "<h2>Categories</h2>" +
+        "<a href='/Daydreamer/categories/youtube.html'>Youtube</a>" +
+        "<a href='/Daydreamer/categories/music.html'>Music</a>" +
+        "<a href='/Daydreamer/categories/submissions.html'>Submissions</a>" +
+        "<a href='/Daydreamer/categories/twitch.html'>Twitch</a>" +
+        "</div>" +
+        "</div>" +
+        "<div class='footer__cards--wrapper'>" +
+        "<div class='footer__cards--items'>" +
+        "<h2>Socials</h2>" +
+        "<a href='https://discord.gg/6bb24kFMas' target='_blank'>Discord</a>" +
+        "<a href='https://www.submithub.com/blog/daydreamer-music' target='_blank'>Submit Hub</a>" +
+        "<a href='https://www.youtube.com/DaydreamerMusicOfficial' target='_blank'>YouTube</a>" +
+        "<a href='https://www.twitch.tv/applepi33' target='_blank'>Twitch</a>" +
+        "</div>" +
+        "</div>" +
+        "</div>" +
+        "<div class='footer__copyright'>" +
+        "<p>&copy;" +
+        "<script>document.write(new Date().getFullYear());</script>" + 
+        "Daydreamer Music All rights reserved" +
+        "</p>" +
+        "</div>" +
+        "</div>";
 
 /* Mobile Menu */
 const menu = document.querySelector('#mobile-menu')
