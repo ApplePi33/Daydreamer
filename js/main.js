@@ -5,7 +5,8 @@ document.getElementById("headInfo").innerHTML =
 "<link rel='stylesheet' href='/Daydreamer/css/main.css' />" +
 "<link rel='preconnect' href='https://fonts.googleapis.com' />" +
 "<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />" +
-"<link href='https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;600&display=swap' rel='stylesheet'/>";
+"<link href='https://fonts.googleapis.com/css2?family=Viga&display=swap' rel='stylesheet'></link>" +
+"<link href='https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap' rel='stylesheet'>";
 
 /* Loads Navigation Bar */
 document.getElementById("navBar").innerHTML =
