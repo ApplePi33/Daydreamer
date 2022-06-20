@@ -72,6 +72,7 @@
 .section__title {
   color: #fff;
   text-align: center;
+  font-size: 1.4rem;
 }
 
 .section__title h2 {
@@ -105,7 +106,7 @@
 
 #viewAll {
   width: 75px;
-  opacity: 90%;
+  opacity: 85%;
 }
 
 #viewAll:hover {
@@ -342,6 +343,10 @@
 
   .blog__text {
     height: 630px;
+  }
+
+  .section__title {
+    font-size: 1.2rem;
   }
 }
 
