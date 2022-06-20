@@ -1,4 +1,33 @@
 /* Main Body */
+.music__main {
+  background-color: #141414;
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.sidebar {
+  display: grid;
+  grid-template-columns: auto;
+  margin: 0 auto;
+  height: auto;
+  background-color: #141414;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+}
+
+.spotify {
+  width: 100%;
+  height: max-content;
+  margin: 20px;
+  justify-self: center;
+  padding-right: 20px;
+  position: sticky;
+  top: 100px;
+
+}
+
 .blog__container {
   display: grid;
   grid-template-columns: auto;
@@ -8,7 +37,6 @@
   z-index: 1;
   width: 100%;
   max-width: 1300px;
-  padding: 0 50px;
 }
 
 /* Posts */
@@ -78,6 +106,23 @@
   right: 0;
 }
 
+@media screen and (max-width: 920px) {
+
+  .sidebar {
+    display: none;
+  }
+
+  .music__main {
+  display: inline;
+  }
+
+  .blog__container {
+    width: 100%;
+    padding: 90px 50px 15px 50px;
+  }
+
+}
+
 /* Mobile Responsive */
 @media screen and (max-width: 767px) {
   .blog__container {
@@ -87,7 +132,6 @@
     width: 100%;
     margin: 0 auto;
     height: auto;
-    padding-bottom: 15px;
   }
 
   .blog__post {
