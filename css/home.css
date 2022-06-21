@@ -69,17 +69,6 @@
 
 /* Blog Body */
 
-.section__title {
-  color: #fff;
-  text-align: center;
-  font-size: 1.4rem;
-}
-
-.section__title h2 {
-  font-family: 'Mulish', sans-serif;
-  letter-spacing: 3px;
-}
-
 .blog__container {
   padding: 15px 50px;
 
