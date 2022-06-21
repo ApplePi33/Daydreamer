@@ -197,9 +197,15 @@
 
   .blog__post {
     display: block;
-    width: 80%;
+    width: 100%;
     height: auto;
     padding-bottom: 20px;
+  }
+  
+  .authorTitle {
+    font-size: 1.4rem;
+    padding-left: 3px;
+    grid-template-columns: 22px auto;
   }
 
   /* Post Images */
