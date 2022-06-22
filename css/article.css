@@ -2,7 +2,6 @@
 .post__container {
   color: #fff;
   padding: 25px;
-  width: 100%;
 }
 
 /* Sections */
@@ -40,8 +39,8 @@
 }
 
 .general__info--image img {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .general__info--text {
@@ -70,7 +69,10 @@
 
 /* Description Section */
 .description {
+  display: block;
+  margin: auto;
   text-align: center;
+  width: 70%;
 }
 
 /* Lyrics Section */
@@ -128,112 +130,130 @@
 
 /* Mobile Responsive */
 @media screen and (max-width: 1384px) {
-    .general__info--video {
-        height: 300px;
-        
-    }
+  .general__info--video {
+    height: 300px;
+  }
 
-    .general__info--video iframe {
-        height: 250px;
-        width: 444px;
-        top: 25px;
-    }
+  .general__info--video iframe {
+    height: 250px;
+    width: 444px;
+    top: 25px;
+  }
 }
 
-@media screen and (max-width:1384px) {
-    .general__info--video {
-        height: 300px;
-        
-    }
+@media screen and (max-width: 1384px) {
+  .general__info--video {
+    height: 300px;
+  }
 
-    .general__info--video iframe {
-        height: 200px;
-        width: 355px;
-        top: 50px;
-    }
+  .general__info--video iframe {
+    height: 200px;
+    width: 355px;
+    top: 50px;
+  }
 }
 
 @media screen and (max-width: 1125px) {
-    .post__items {
-        padding: 10px 10% 25px;
-    }
+  .post__items {
+    padding: 10px 10% 25px;
+  }
 
-    .general__info {
-        justify-content: center;
-        display: grid;
-        grid-template-columns: 500px;
-    }
+  .general__info {
+    justify-content: center;
+    grid-template-columns: 444px;
+  }
 
-    .general__info--text {
-        text-align: center;
-        width: 100%;
-    }
+  .general__info--text {
+    text-align: center;
+    width: 100%;
+  }
 
-    .general__info--image {
-        display: block;
-        margin: auto;
-    }
+  .general__info--image {
+    display: block;
+    margin: auto;
+  }
 
-    .general__info--video{
-        width: 444px;
-        height: 250px;
-        display: block;
-        margin: 0 auto;
-    }
+  .general__info--video {
+    width: 444px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+  }
 
-    .general__info--video iframe{
-        width: 444px;
-        height: 250px;
-        top: 10px;
-        bottom: 10px;
-    }
+  .general__info--video iframe {
+    width: 444px;
+    height: 250px;
+    top: 10px;
+    bottom: 10px;
+  }
 }
 
 @media screen and (max-width: 499px) {
-    .general__info--video{
-        width: 355px;
-        height: 200px;
-    }
+  .general__info {
+    grid-template-columns: 355px;
+  }
 
-    .general__info--video iframe{
-        width: 355px;
-        height: 200px;
-    }
-    
+  .general__info--video {
+    width: 355px;
+    height: 200px;
+  }
+
+  .general__info--video iframe {
+    width: 355px;
+    height: 200px;
+  }
+
+  .artist__socials--links {
+    font-size: 1.4rem;
+  }
+
+  .artist__socials--links i {
+    padding: 0 7px;
+  }
 }
 
 @media screen and (max-width: 370px) {
-    .general__info--image {
-        height: 250px;
-        width: 250px;
-    }
+  .general__info {
+    grid-template-columns: 266px;
+  }
 
-    .general__info--video{
-        width: 266px;
-        height: 150px;
-    }
+  .general__info--image {
+    height: 250px;
+    width: 250px;
+  }
 
-    .general__info--video iframe{
-        width: 266px;
-        height: 150px;
-    }
-    
+  .general__info--video {
+    width: 266px;
+    height: 150px;
+  }
+
+  .general__info--video iframe {
+    width: 266px;
+    height: 150px;
+  }
 }
 
 @media screen and (max-width: 290px) {
-    .general__info--image {
-        height: 180px;
-        width: 180px;
-    }
+  .general__info {
+    grid-template-columns: 180px;
+  }
 
-    .general__info--video{
-        width: 180px;
-        height: 100px;
-    }
+  .general__info--image {
+    height: 180px;
+    width: 180px;
+  }
 
-    .general__info--video iframe{
-        width: 180px;
-        height: 100px;
-    }
-    
+  .general__info--video {
+    width: 180px;
+    height: 100px;
+  }
+
+  .general__info--video iframe {
+    width: 180px;
+    height: 100px;
+  }
+
+  .artist__socials--links {
+    font-size: 0.8rem;
+  }
 }
