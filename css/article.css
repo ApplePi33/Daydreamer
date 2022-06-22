@@ -1,123 +1,239 @@
 /* Main Body */
 .post__container {
-    color: #fff;
-    padding: 25px;
+  color: #fff;
+  padding: 25px;
+  width: 100%;
 }
 
 /* Sections */
 .post__items {
-    padding: 15px 200px 25px;
+  padding: 15px 10% 25px;
 }
 
 .section__line {
-    margin: 0 auto;
-    width: 90%;
+  margin: 0 auto;
+  width: 90%;
 }
 
 .section__line hr {
-    border: 1px solid rgb(49, 49, 49); 
+  border: 1px solid rgb(49, 49, 49);
 }
 
 .post__items h1 {
-    font-size: 2rem;
-
+  font-size: 2rem;
 }
 
 .section__title {
-    text-align: center;
-    padding-bottom: 14px;
+  text-align: center;
+  padding-bottom: 14px;
 }
 
 /* General Info Section */
 .general__info {
-    display: grid;
-    grid-template-columns: 300px auto auto;
+  display: grid;
+  grid-template-columns: 300px auto auto;
 }
 
 .general__info--image {
-    width: 300px;
-    height: 300px;
+  width: 300px;
+  height: 300px;
+}
+
+.general__info--image img {
+    height: 100%;
+    width: 100%;
 }
 
 .general__info--text {
-    width: max-content;
+  width: max-content;
 }
 
-.general__info--video{
-    align-items: right;
+.general__info--video {
+  align-items: right;
+  position: relative;
 }
 
-.general__info--video{
-    position: relative;
-}
-
-.general__info--video iframe{
-    position: absolute;
-    right: 0;
+.general__info--video iframe {
+  position: absolute;
+  right: 0;
+  height: 300px;
+  width: 533px;
 }
 
 .info__line {
-    padding: 6px 10px;
+  padding: 6px 10px;
 }
 
 .album__cover {
-    height: 300px;
+  height: 300px;
 }
 
 /* Description Section */
 .description {
-    text-align: center;
+  text-align: center;
 }
 
 /* Lyrics Section */
 .lyrics {
-    text-align: center;
+  text-align: center;
 }
 
 /* Follow Section */
 .artist__socials--links {
-    width: max-content;
-    margin: 0 auto;
-    font-size: 2rem;
+  width: max-content;
+  margin: 0 auto;
+  font-size: 2rem;
 }
 
 .artist__socials--links i {
-    padding: 0 10px;    
-    color: #fff;
+  padding: 0 10px;
+  color: #fff;
 }
 
 /* Icon Colors */
 #facebook:hover {
-    color: #3b5998;
-    transition: ease 0.2s;
+  color: #3b5998;
+  transition: ease 0.2s;
 }
 
 #youtube:hover {
-    color: #e71111;
-    transition: ease 0.2s;
+  color: #e71111;
+  transition: ease 0.2s;
 }
 
 #tiktok:hover {
-    color: #52f5ef;
-    transition: ease 0.2s;
+  color: #52f5ef;
+  transition: ease 0.2s;
 }
 
 #instagram:hover {
-    color: #df45ae;
-    transition: ease 0.2s;
+  color: #df45ae;
+  transition: ease 0.2s;
 }
 
 #twitter:hover {
-    color: #00acee;
-    transition: ease 0.2s;
+  color: #00acee;
+  transition: ease 0.2s;
 }
 
 #spotify:hover {
-    color: #1DB954;
-    transition: ease 0.2s;
+  color: #1db954;
+  transition: ease 0.2s;
 }
 
 #website:hover {
-    color: #42c3eb;
-    transition: ease 0.2s;
+  color: #42c3eb;
+  transition: ease 0.2s;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 1384px) {
+    .general__info--video {
+        height: 300px;
+        
+    }
+
+    .general__info--video iframe {
+        height: 250px;
+        width: 444px;
+        top: 25px;
+    }
+}
+
+@media screen and (max-width:1384px) {
+    .general__info--video {
+        height: 300px;
+        
+    }
+
+    .general__info--video iframe {
+        height: 200px;
+        width: 355px;
+        top: 50px;
+    }
+}
+
+@media screen and (max-width: 1125px) {
+    .post__items {
+        padding: 10px 10% 25px;
+    }
+
+    .general__info {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 500px;
+    }
+
+    .general__info--text {
+        text-align: center;
+        width: 100%;
+    }
+
+    .general__info--image {
+        display: block;
+        margin: auto;
+    }
+
+    .general__info--video{
+        width: 444px;
+        height: 250px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .general__info--video iframe{
+        width: 444px;
+        height: 250px;
+        top: 10px;
+        bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .general__info--video{
+        width: 355px;
+        height: 200px;
+    }
+
+    .general__info--video iframe{
+        width: 355px;
+        height: 200px;
+    }
+    
+}
+
+@media screen and (max-width: 370px) {
+    .general__info--image {
+        height: 250px;
+        width: 250px;
+    }
+
+    .general__info--video{
+        width: 266px;
+        height: 150px;
+    }
+
+    .general__info--video iframe{
+        width: 266px;
+        height: 150px;
+    }
+    
+}
+
+@media screen and (max-width: 290px) {
+    .general__info--image {
+        height: 180px;
+        width: 180px;
+    }
+
+    .general__info--video{
+        width: 180px;
+        height: 100px;
+    }
+
+    .general__info--video iframe{
+        width: 180px;
+        height: 100px;
+    }
+    
 }
