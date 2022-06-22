@@ -55,9 +55,7 @@ document.getElementById("footer").innerHTML =
         "</div>" +
         "</div>" +
         "<div class='footer__copyright'>" +
-        "<p>&copy;" +
-        "<script>document.write(new Date().getFullYear());</script>" + 
-        "Daydreamer Music All rights reserved" +
+        "<p>&copy; 2022 Daydreamer Music All rights reserved" +
         "</p>" +
         "</div>" +
         "</div>";
