@@ -1,12 +1,160 @@
 /* Main Body */
 .youtube__container {
-    color: #FFF;
+  color: #fff;
+  padding: 25px;
 }
 
+.youtube__item {
+  padding: 15px 10% 25px;
+}
+
+.section__title {
+  padding-bottom: 14px;
+}
+
+.section__title h2 {
+  font-size: 2rem;
+}
+
+/* Horizontal Scrollbar */
+
+.popular__uploads--list::-webkit-scrollbar {
+  height: 8px;
+  margin-inline: 20px;
+}
+
+/* Latest Section */
+.latest__upload {
+  text-align: center;
+}
+
+.latest__embed iframe {
+  width: 560px;
+  height: 315px;
+}
+
+/* Popular Uploads Section */
+
+.popular__uploads--list {
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+}
+
+.popular__uploads--video {
+  width: max-content;
+  height: max-content;
+  margin: 20px;
+}
+
+.popular__uploads--video iframe {
+  width: 500px;
+  height: 281px;
+}
+
+/* Featured Channels Section */
+.featured__channels {
+  display: flex;
+  width: auto;
+}
+
+.channel {
+  margin: 0 auto;
+}
 
 .channel img {
-    border: 4px solid #fff;
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+}
+
+/* Mobile Interactive */
+@media screen and (max-width: 890px) {
+  .channel img {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 756px) {
+  .latest__embed iframe {
+    width: 500px;
+    height: 281px;
+  }
+
+  .channel img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .popular__uploads--video iframe {
+    width: 450px;
+    height: 253px;
+  }
+}
+
+@media screen and (max-width: 677px) {
+  .latest__embed iframe {
+    width: 400px;
+    height: 225px;
+  }
+
+  .popular__uploads--video iframe {
+    width: 350px;
+    height: 196px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .latest__embed iframe {
+    width: 350px;
+    height: 196px;
+  }
+
+  .popular__uploads--video iframe {
+    width: 300px;
+    height: 168px;
+  }
+
+  .channel img {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .latest__embed iframe, .popular__uploads--video iframe {
+    width: 250px;
+    height: 140px;
+  }
+
+  .channel {
+    padding: 0 6px 8px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+    .section__title h2 {
+        font-size: 1.5rem;
+    }
+
+  .featured__channels {
+    overflow-x: auto;
+  }
+
+  .featured__channels::-webkit-scrollbar {
+    height: 8px;
+  }
+}
+
+@media screen and (max-width: 364px) {
+    .section__title h2 {
+        font-size: 1.3rem;
+    }
+
+  .latest__embed iframe, .popular__uploads--video iframe {
+    width: 180px;
+    height: 101px;
+  }
 }
