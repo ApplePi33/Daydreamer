@@ -14,10 +14,6 @@
   width: 90%;
 }
 
-.section__line hr {
-  border: 1px solid rgb(49, 49, 49);
-}
-
 .post__items h1 {
   font-size: 2rem;
 }
