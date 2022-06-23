@@ -18,7 +18,7 @@ document.getElementById("navBar").innerHTML =
   "<span class='bar'></span>" +
   "</div>" +
   "<ul class='navbar__menu'>" +
-  "<li class='navbar__item'><a href='/Daydreamer/categories/music.html' class='navbar__links'> Music </a></li>" +
+  "<li class='navbar__item'><a href='/Daydreamer/categories/blog.html' class='navbar__links'> Blog </a></li>" +
   "<li class='navbar__item'><a href='/Daydreamer/categories/twitch.html' class='navbar__links'>Twitch </a></li>" +
   "<li class='navbar__item'><a href='/Daydreamer/categories/youtube.html' class='navbar__links'>YouTube</a></li>" +
   "<li class='navbar__item'><a href='/Daydreamer/categories/submissions.html' class='navbar__links'>Submissions</a></li>" +
@@ -39,7 +39,7 @@ document.getElementById("footer").innerHTML =
   "<div class='footer__cards--items'>" +
   "<h2>Categories</h2>" +
   "<a href='/Daydreamer/categories/youtube.html'>Youtube</a>" +
-  "<a href='/Daydreamer/categories/music.html'>Music</a>" +
+  "<a href='/Daydreamer/categories/blog.html'>Blog</a>" +
   "<a href='/Daydreamer/categories/submissions.html'>Submissions</a>" +
   "<a href='/Daydreamer/categories/twitch.html'>Twitch</a>" +
   "</div>" +
