@@ -194,6 +194,10 @@
     height: 200px;
   }
 
+  .description {
+    width: 90%;
+  }
+
   .artist__socials--links {
     font-size: 1.4rem;
   }
