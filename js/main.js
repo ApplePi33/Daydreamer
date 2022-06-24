@@ -21,8 +21,7 @@ document.getElementById("navBar").innerHTML =
   "<li class='navbar__item'><a href='/Daydreamer/categories/blog.html' class='navbar__links'> Blog </a></li>" +
   "<li class='navbar__item'><a href='/Daydreamer/categories/twitch.html' class='navbar__links'>Twitch </a></li>" +
   "<li class='navbar__item'><a href='/Daydreamer/categories/youtube.html' class='navbar__links'>YouTube</a></li>" +
-  "<li class='navbar__item'><a href='/Daydreamer/categories/submissions.html' class='navbar__links'>Submissions</a></li>" +
-  "<li class='navbar__button'><a href='/Daydreamer/categories/login/login.html' class='button'> Log In </a></li>" +
+  "<li class='navbar__button'><a href='/Daydreamer/categories/submissions.html' class='button'> Submit </a></li>" +
   "</ul>" +
   "</div>" +
   "</nav>";
