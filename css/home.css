@@ -5,7 +5,7 @@
   align-items: center;
   justify-self: center;
   margin: 0 auto;
-  height: 90vh;
+  height: auto;
   background-color: #141414;
   z-index: 1;
   width: 100%;
