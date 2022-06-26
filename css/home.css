@@ -194,6 +194,18 @@
   height: 8px;
 }
 
+/* YouTube Section */
+.youtube__container {
+  padding: 15px;
+}
+
+.latest__video iframe {
+  width: 560px;
+  height: 313px;
+  display: block;
+  margin: 10px auto;
+}
+
 /* Mobile Responsive*/
 @media screen and (max-width: 913px) {
   /* Submissions Body */
@@ -317,7 +329,7 @@
 }
 
 /* Mobile Responsive - Phones*/
-@media screen and (min-width: 481px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .submit__button a {
     padding: 15px 40px;
     font-size: 1.5rem;
@@ -339,6 +351,17 @@
   .section__title {
     font-size: 1.2rem;
   }
+
+  .latest__video iframe {
+    width: 500px;
+    height: 279px;
+  }
+
+}@media screen and (max-width: 590px) {
+  .latest__video iframe {
+    width: 350px;
+    height: 194px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -355,5 +378,18 @@
   /* Submit Button */
   .submit__button {
     padding: 6px 18px;
+  }
+
+  .latest__video iframe {
+    width: 250px;
+    height: 140px;
+  }
+}
+
+@media screen and (max-width: 364px) {
+
+  .latest__video iframe {
+    width: 180px;
+    height: 101px;
   }
 }
