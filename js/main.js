@@ -1,7 +1,7 @@
 /* Loads Head Info */
 document.getElementById("headInfo").innerHTML =
   "<title>Daydreamer Music</title>" +
-  "<link rel='shortcut icon' href='/Daydreamer/images/Logo.png' />" +
+  "<link rel='icon' href='/Daydreamer/favicon.ico' />" +
   "<link rel='stylesheet' href='/Daydreamer/css/main.css' />" +
   "<link rel='preconnect' href='https://fonts.googleapis.com' />" +
   "<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />" +
