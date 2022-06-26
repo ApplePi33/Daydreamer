@@ -4,6 +4,7 @@ document.getElementById("headInfo").innerHTML =
   "<link rel='stylesheet' href='/Daydreamer/css/main.css' />" +
   "<link rel='preconnect' href='https://fonts.googleapis.com' />" +
   "<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />" +
+  "<link rel='icon' type='image/x-icon' href='/Daydreamer/favicon.ico'>" +
   "<link href='https://fonts.googleapis.com/css2?family=Viga&display=swap' rel='stylesheet'></link>" +
   "<link href='https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap' rel='stylesheet'>";
 
